@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('ts.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: purple;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 0;
+  right: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+<body>
+
+<div class="bgimg">
+  <div class="topleft">
+    <p>University of Belize</p>
+    
+  </div>
+  <div class="middle">
+  <br><br><br>
+    <h1>Transfer to UB</h1>
+    <hr>
+    <p><a href="http://localhost:3000/books">TRANSFER</a></p>
+  </div>
+  <div class="bottomright">
+    <p><img src="ublogo.png" alt="UB" style="width:116px;height:72px;"></p>
+  </div>
+</div>
+
+</body>
+</html>
